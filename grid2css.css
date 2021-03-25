@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:600px;
+}
+ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;  
+    grid-gap: 5px;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+    height:200px;
+}
+.cell-1{
+    background-color: lightyellow;
+    grid-column: 1/4;
+}
+.cell-2{
+    background-color: lightgreen;
+}
+.cell-3{
+    background-color: lightblue;
+}
+.cell-4{
+    background-color: lightpink;
+}
+.cell-5{
+    background-color: lightcoral;
+}
+.cell-6{
+    background-color: lightsalmon;
+}
+.cell-7{
+    background-color: purple;
+}
+.cell-8{
+    background-color: orange;
+}
+.cell-9{
+    background-color: lightseagreen;
+}

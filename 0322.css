@@ -1,0 +1,18 @@
+*{
+    font-size: 40px;
+}
+
+#a {
+    background-color: silver;
+    height: 100px;
+}
+
+#b {
+    background-color: skyblue;
+    position: fixed;
+    right: 10px
+}
+
+#c {
+    background-color: lightgreen;
+}

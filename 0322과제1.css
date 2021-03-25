@@ -1,0 +1,54 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-items: center;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#title {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.first {
+    padding: 250px;
+}
+
+.first img {
+    position: relative;
+    width: 500px;
+}
+
+.second {
+    padding: 250px;
+}
+
+.third {
+    padding: 150px;
+}
+
+.fourth {
+    text-align: center;
+    padding: 150px;
+}
+
+.fifth {
+    padding: 150px;
+}
+.fifth img{
+    max-height: 650px;
+    overflow: hidden;
+}
+
+.last {
+    padding: 300px;
+}
